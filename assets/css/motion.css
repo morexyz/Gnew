@@ -1,0 +1,10 @@
+@keyframes cue-pulse{0%,100%{opacity:.3;transform:scaleY(.4)}50%{opacity:1;transform:scaleY(1)}}
+@keyframes shine-sweep{0%{transform:translateX(-520px) rotate(24deg)}65%,100%{transform:translateX(850px) rotate(24deg)}}
+@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+@keyframes slow-rotate{to{transform:rotate(360deg)}}
+@keyframes disk-float{0%,100%{transform:translateY(0) rotate(-22deg)}50%{transform:translateY(-15px) rotate(-18deg)}}
+.hero__disk{animation:disk-float 9s ease-in-out infinite}
+.reveal{opacity:1;transform:none}.enhanced-motion .reveal:not(.is-visible){opacity:0;transform:translateY(32px)}.enhanced-motion .reveal.is-visible{opacity:1;transform:none;transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.1,1)}
+@supports (animation-timeline:view()) { .native-scroll-motion .hero__art{animation:hero-drift linear both;animation-timeline:view();animation-range:entry 0% exit 100%}@keyframes hero-drift{from{translate:0 0}to{translate:0 90px}} }
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.enhanced-motion .reveal{opacity:1!important;transform:none!important}}
+.motion-off *, .motion-off *::before,.motion-off *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.motion-off .reveal{opacity:1!important;transform:none!important}
