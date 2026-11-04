@@ -93,3 +93,11 @@
 [dir=rtl] .story-compass nav{left:auto;right:0}
 @media(max-width:850px){.story-compass{display:none}}
 .story-compass #compass-current{direction:ltr;unicode-bidi:isolate;display:inline-block}
+
+/* Direct links to the live Gnew application (separate from the concept preview). */
+.hero__product-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+.hero__product-links .outline-button{min-width:190px;min-height:49px;padding:13px 17px;border-color:rgba(223,189,121,.5);background:rgba(8,11,12,.78);color:#f1dbb0}
+.hero__product-links .outline-button:hover{border-color:var(--gold2)}
+.hero__product-note{margin:10px 0 0;color:#bbb29e;font-size:10px;line-height:1.6;letter-spacing:.02em;max-width:480px}
+[dir=rtl] .hero__product-links .outline-button{letter-spacing:0;text-transform:none;font-weight:700}
+@media(max-width:610px){.hero__product-links{gap:8px}.hero__product-links .outline-button{flex:1 1 145px;min-width:0;padding:12px;font-size:10px;gap:8px}.hero__product-note{font-size:9px}}
