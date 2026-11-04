@@ -42,6 +42,7 @@ export const FA = Object.freeze({
   'Gnew application pages': 'صفحات کاربردی جینو',
   'Launch Setup': 'ورود به تنظیمات',
   'Open Dashboard': 'ورود به داشبورد',
+  'Live Showcase': 'نمایش زنده',
   'Ethereum Mainnet · Wallet approvals and transactions may incur network fees.': 'شبکه اصلی اتریوم · تأیید مجوزهای کیف‌پول و تراکنش‌ها ممکن است کارمزد شبکه داشته باشند.',
   'A NEW ERA OF INTELLIGENT DIGITAL GOLD MANAGEMENT': 'دورانی تازه در مدیریت هوشمند طلای دیجیتال',
   'SCROLL TO EXPLORE': 'برای کشف، اسکرول کنید',
